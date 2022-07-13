@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    android:layoutDirection="rtl"
+    android:textColor="#000000"
+    tools:context=".addPet">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="false"
+        android:columnOrderPreserved="false"
+        android:paddingTop="5dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="1dp"
+            android:rowCount="10">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="הוספת חיה חדשה"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"></TextView>
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="200dp"-->
+            <!--                android:layout_height="200dp"-->
+            <!--                android:layout_centerInParent="false"-->
+            <!--                android:src="@drawable/pets">-->
+
+
+            <!--            </ImageView>-->
+
+            <EditText
+                android:id="@+id/Birthday"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="30dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="בחר תאריך לידה"
+                android:inputType="text|textNoSuggestions"
+                android:textColor="#032338"
+                android:textColorHint="@color/black" />
+
+            <TextView android:text="dsfsdfsdfsdfsdf">
+
+            </TextView>
+
+            <Spinner
+                android:id="@+id/petOptionSpinner"
+                android:layout_width="146dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="32dp"
+                android:outlineAmbientShadowColor="@color/black"
+
+                android:outlineSpotShadowColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.611"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.206" />
+
+            <EditText
+                android:id="@+id/petName"
+                android:layout_width="120dp"
+                android:layout_height="39dp"
+                android:ems="10"
+                android:hint="בחר שם"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.054"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="23dp"
+                android:background="#032338"
+                android:gravity="center"
+                android:onClick="createPet"
+                android:text="הוספה"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="+ הוספת חיה חדשה"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.114"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.068" />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/Birthday"-->
+<!--        android:clickable="false"-->
+<!--        android:cursorVisible="false"-->
+<!--        android:focusable="false"-->
+<!--        android:focusableInTouchMode="false"-->
+<!--        android:hint="@string/birthday"/>-->
+
+
+
+
+/
+
+
+</RelativeLayout>

@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PetCare</string>
+    <!-- facebook login-->
+
+    <string name="facebook_app_id">699023607900517</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">bd6d88ab15a3b4a779c00b87eaaa28e9</string>
+    <string name="birthday" />
+    <!--    <string name="default_web_client_id">bd6d88ab15a3b4a779c00b87eaaa28e9</string>-->
+    <!--end of facebook login-->
+    <string-array name="pets">
+
+        <item>בחר סוג</item>
+        <item>כלב</item>
+        <item>חתול</item>
+        <item>תוכי</item>
+        <item>דג</item>
+    </string-array>
+
 </resources>
