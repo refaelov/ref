@@ -75,7 +75,7 @@
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:background="#549DBB"
-                    android:onClick="petList"
+                    android:onClick="displayPets"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="80dp"
@@ -108,7 +108,7 @@
                 android:orientation="vertical"
                 android:padding="16dp"
                 android:background="#549DBB"
-                android:onClick="petList"
+                android:onClick="newReminder"
                 android:gravity="center">
                 <ImageView
                     android:layout_width="80dp"
@@ -176,7 +176,7 @@
                 android:orientation="vertical"
                 android:padding="16dp"
                 android:background="#549DBB"
-                android:onClick="petList"
+                android:onClick="vetSearch"
                 android:gravity="center">
                 <ImageView
                     android:layout_width="80dp"
@@ -208,7 +208,7 @@
                 android:orientation="vertical"
                 android:padding="16dp"
                 android:background="#549DBB"
-                android:onClick="petList"
+                android:onClick="shop_list"
                 android:gravity="center">
                 <ImageView
                     android:layout_width="80dp"

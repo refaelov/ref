@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded.xml" value="0.2745" />
         <entry key="app/src/main/res/layout/activity_add_pet.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_display_pets.xml" value="0.2151268115942029" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.14035087719298245" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_reminders.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_shopping_list.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/activity_show_pet_context.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_vet_nearby.xml" value="0.2028985507246377" />
+        <entry key="app/src/main/res/layout/display_item.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/display_pet_info_popup.xml" value="0.33469202898550726" />
+        <entry key="app/src/main/res/layout/fragment_pet.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/product_list.xml" value="0.2884963768115942" />
+        <entry key="app/src/main/res/layout/recycler_view_pet.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/update_popup.xml" value="0.26132246376811596" />
       </map>
     </option>
   </component>

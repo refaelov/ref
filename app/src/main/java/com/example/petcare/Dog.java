@@ -2,24 +2,24 @@ package com.example.petcare;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 
 public class Dog extends Pet {
 
-    private ArrayList<String> vaccines;
+    private VaccineRecord vaccineRecord ;
 
-    public Dog(String petType,String petName,Date bornDate) {
-        super(petType,petName,bornDate);
-        this.vaccines=new ArrayList<String>();
-    }
-
-    public ArrayList<String> getVaccines() {
-        return vaccines;
-    }
-
-    public void setVaccines(String vaccines) {
-        this.vaccines.add(vaccines);
+    public Dog(String petType, String petName, Date bornDate, String imgUrl) {
+        super(petType,petName,bornDate,imgUrl);
+        this.vaccineRecord=new VaccineRecord();
     }
 
 
 
+    public VaccineRecord getVaccineRecord() {
+        return vaccineRecord;
+    }
+
+    public void setVaccineRecord(VaccineRecord vaccineRecord) {
+        this.vaccineRecord = vaccineRecord;
+    }
 }

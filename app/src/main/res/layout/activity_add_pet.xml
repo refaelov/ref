@@ -61,9 +61,6 @@
                 android:textColor="#032338"
                 android:textColorHint="@color/black" />
 
-            <TextView android:text="dsfsdfsdfsdfsdf">
-
-            </TextView>
 
             <Spinner
                 android:id="@+id/petOptionSpinner"
@@ -94,6 +91,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.054"
                 app:layout_constraintStart_toStartOf="parent" />
+            <ImageView
+                android:id="@+id/petPic"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                >
+
+            </ImageView>
 
             <Button
                 android:id="@+id/button2"
@@ -110,36 +114,5 @@
                 app:layout_constraintEnd_toEndOf="parent" />
 
         </GridLayout>
-
     </ScrollView>
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="+ הוספת חיה חדשה"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="20dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.114"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.068" />-->
-<!--    <EditText-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:id="@+id/Birthday"-->
-<!--        android:clickable="false"-->
-<!--        android:cursorVisible="false"-->
-<!--        android:focusable="false"-->
-<!--        android:focusableInTouchMode="false"-->
-<!--        android:hint="@string/birthday"/>-->
-
-
-
-
-/
-
-
 </RelativeLayout>

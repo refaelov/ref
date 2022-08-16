@@ -75,4 +75,30 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this,addPet.class);
         startActivity(intent);
     }
+
+    public void displayPets(View view) {
+
+        Intent intent=new Intent(this,displayPets.class);
+        startActivity(intent);
+    }
+
+    public void addNewPet(View view) {
+        Intent intent=new Intent(this,addPet.class);
+        startActivity(intent);
+    }
+
+    public void vetSearch(View view) {
+        Intent intent=new Intent(this,VetNearby.class);
+        startActivity(intent);
+    }
+
+    public void shop_list(View view) {
+        Intent intent=new Intent(this,ShoppingList.class);
+        startActivity(intent);
+    }
+
+    public void newReminder(View view) {
+        Intent intent=new Intent(this,Reminders.class);
+        startActivity(intent);
+    }
 }
